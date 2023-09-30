@@ -7,9 +7,6 @@ This repository contains the implementation of a Proximal Policy Optimization (P
 - [Introduction](#introduction)
 - [Environment](#environment)
 - [Dependencies](#dependencies)
-- [Usage](#usage)
-- [Results](#results)
-- [License](#license)
 
 ## Introduction
 
