@@ -1,6 +1,6 @@
 # PPO LunarLander-v2 Model
 
-This repository contains the implementation of a Proximal Policy Optimization (PPO) model for solving the LunarLander-v2 environment in OpenAI Gym.
+This repository contains the implementation of a Proximal Policy Optimization (PPO) model for solving the LunarLander-v2 environment in OpenAI Gym using the Stable Baselines3 library.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This repository contains the implementation of a Proximal Policy Optimization (P
 
 Proximal Policy Optimization (PPO) is a reinforcement learning algorithm used for training agents to perform tasks in various environments. In this project, we apply PPO to solve the LunarLander-v2 environment provided by OpenAI Gym. The goal of the LunarLander-v2 task is to land a spaceship safely on the moon's surface while optimizing for fuel consumption.
 
-This repository includes the code for training the PPO agent to learn how to control the spaceship's actions and land safely on the lunar surface.
+This repository includes the code for training the PPO agent using the Stable Baselines3 library to learn how to control the spaceship's actions and land safely on the lunar surface.
 
 ## Environment
 
@@ -26,12 +26,12 @@ The LunarLander-v2 environment is a part of the OpenAI Gym library. It simulates
 To run the code in this repository, you need to have the following dependencies installed:
 
 - Python (>=3.6)
-- OpenAI Gym
+- Gym
+- Stable Baselines3
 - NumPy
-- TensorFlow (or other deep learning frameworks, if you choose to use them)
 - Other dependencies (if specified in the code)
 
 You can install the required Python packages using pip:
 
 ```bash
-pip install gym numpy tensorflow
+pip install gym stable-baselines3 numpy
